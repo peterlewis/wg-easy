@@ -1,5 +1,5 @@
 {
-  "release": "8.0.1",
+  "release": "9",
   "name": "wg-easy",
   "version": "1.0.0",
   "description": "",
@@ -19,7 +19,7 @@
     "uuid": "^9.0.0"
   },
   "devDependencies": {
-    "eslint": "^8.34.0",
+    "eslint": "^8.35.0",
     "eslint-config-athom": "^3.1.1"
   },
   "nodemonConfig": {
