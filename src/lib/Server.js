@@ -109,6 +109,7 @@ module.exports = class Server {
       }))
       .get('/api/wireguard/client/:clientId/qrcode.svg', Util.promisify(async (req, res) => {
         const { clientId } = req.params;
+        clientId = new Map();
         const svg = await WireGuard.getClientQRCodeSVG({ clientId });
         res.header('Content-Type', 'image/svg+xml');
         res.send(svg);
