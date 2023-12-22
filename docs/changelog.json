@@ -11,4 +11,5 @@
   "10": "Updated NodeJS to v18.15.0 (@pheiduck) and bump node dependencies."
   "11": "Updated NodeJS to v18.18.2 and bump node dependencies."
   "12": "New Release, new Features. This includes Sessionless HTTP API authentication and DARKMODE!!! 😎"
+  "13": "Now contributing to wg-easy/wg-easy - this fork will no longer be updated!"
 }
